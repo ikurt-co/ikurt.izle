@@ -1,0 +1,12 @@
+.brand-footer { margin-top: 28px; padding: 22px 12px; text-align: center; }
+.brand-footer-credit { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+.brand-footer-credit .brand-logo { width: min(100%, 150px); padding: 0; background: transparent; }
+.brand-footer-credit .brand-logo img { height: auto; aspect-ratio: 5 / 2; object-fit: contain; transform: none; }
+.brand-footer-credit p { margin: 0; color: #526474; font-size: 12px; line-height: 1.6; }
+.brand-footer-business-logo { display: block; width: min(100%, 220px); height: auto; aspect-ratio: 5 / 2; object-fit: contain; }
+.brand-social-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px 16px; margin-top: 18px; }
+.brand-social-link { display: inline-flex; min-height: 44px; max-width: 100%; gap: 8px; padding: 8px 10px; align-items: center; justify-content: center; border-radius: 10px; color: #17344d; font-size: 13px; text-decoration: none; transition: background 160ms ease; }
+.brand-social-link img { display: block; flex: 0 0 auto; width: 24px; height: 24px; object-fit: contain; }
+.brand-social-link:hover { background: #e5f3f8; }
+@media (max-width: 374px) { .brand-social-links { flex-direction: column; align-items: center; } }
+@media (prefers-reduced-motion: reduce) { .brand-social-link { transition: none; } }

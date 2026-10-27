@@ -1,0 +1,66 @@
+/**
+ * For more details on how to configure Wrangler, refer to:
+ * https://developers.cloudflare.com/workers/wrangler/configuration/
+ */
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "ikurt-izle",
+	"main": "worker/index.ts",
+	"compatibility_date": "2026-10-01",
+  "workers_dev": true,
+  "preview_urls": false,
+  "vars": {
+    "ACCESS_TEAM_DOMAIN": "ikurt-co.cloudflareaccess.com",
+    "ACCESS_AUD": "78e0b970dd074a300bd819db352d782dcfb6e0015393ce59cba2c5f3957b63a8",
+    "ADMIN_EMAIL": "tarik@ikurt.net",
+    "ADMIN_HOST": "izle.ikurt.net"
+  },
+	"assets": {
+  "binding": "ASSETS",
+  "not_found_handling": "single-page-application",
+  "run_worker_first": [
+    "/api/*", "/admin", "/admin/*"
+  ]
+},
+	"observability": {
+		"enabled": true
+	},
+	"upload_source_maps": true,
+  "kv_namespaces": [
+    {
+      "binding": "IZLE_LINKS",
+      "id": "ebd040c1f9a942c38247f732085317a1"
+    }
+  ],
+	"d1_databases": [
+		{
+			"binding": "ikurt_izle_db",
+			"database_name": "ikurt-izle-db",
+			"database_id": "cae624f5-f60f-40e1-aeff-7cd7b5ed5140",
+			"remote": true
+		}
+	]
+	/**
+	 * Smart Placement
+	 * https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
+	 */
+	// "placement": {  "mode": "smart" }
+	/**
+	 * Bindings
+	 * Bindings allow your Worker to interact with resources on the Cloudflare Developer Platform, including
+	 * databases, object storage, AI inference, real-time communication and more.
+	 * https://developers.cloudflare.com/workers/runtime-apis/bindings/
+	 */
+	/**
+	 * Environment Variables
+	 * https://developers.cloudflare.com/workers/wrangler/configuration/#environment-variables
+	 * Note: Use secrets to store sensitive data.
+	 * https://developers.cloudflare.com/workers/configuration/secrets/
+	 */
+	// "vars": {  "MY_VARIABLE": "production_value" }
+	/**
+	 * Service Bindings (communicate between multiple Workers)
+	 * https://developers.cloudflare.com/workers/wrangler/configuration/#service-bindings
+	 */
+	// "services": [  {   "binding": "MY_SERVICE",   "service": "my-service"  } ]
+}

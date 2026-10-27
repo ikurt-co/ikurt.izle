@@ -1,0 +1,18 @@
+.brand-footer { margin-top: 28px; padding: 22px 12px; text-align: center; }
+.brand-footer-credit { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; column-gap: 10px; }
+.brand-footer-credit .brand-logo { width: 94px; padding: 0; background: transparent; }
+.brand-footer-credit .brand-logo img { height: 38px; }
+.brand-footer-credit p { margin: 0; color: #526474; font-size: 11px; line-height: 1.8; }
+.brand-footer-credit strong { font-weight: 650; }
+.brand-social-links { display: flex; justify-content: center; gap: 12px; margin-top: 16px; }
+.brand-social-link { display: inline-flex; width: 46px; height: 46px; align-items: center; justify-content: center; border: 1px solid #dce6e9; border-radius: 15px; background: #fff; text-decoration: none; box-shadow: 0 4px 12px #17344d08; transition: transform 160ms ease, box-shadow 160ms ease; }
+.brand-social-link img { display: block; width: 32px; height: 32px; object-fit: contain; transform: scale(1.15); }
+.brand-social-link:hover { transform: translateY(-2px); box-shadow: 0 7px 16px #17344d14; }
+.sidebar .brand-footer { margin-top: 10px; padding: 14px 0 0; border-top: 1px solid #2b3b50; }
+.sidebar .brand-footer-credit { gap: 10px; }
+.sidebar .brand-footer-credit .brand-logo { padding: 5px; background: white; border-radius: 9px; }
+.sidebar .brand-footer-credit p { color: #c0cbda; font-size: 10px; width: 100%; }
+.sidebar .brand-social-link { width: 42px; height: 42px; background: #1d2b3f; border-color: #34465d; box-shadow: none; }
+@media (max-width: 900px) { .sidebar .brand-footer { margin-top: 0; } }
+@media (prefers-reduced-motion: reduce) { .brand-social-link { transition: none; } .brand-social-link:hover { transform: none; } }
+

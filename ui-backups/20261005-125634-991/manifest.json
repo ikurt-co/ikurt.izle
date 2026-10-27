@@ -1,0 +1,52 @@
+[
+  {
+    "path": "src/App.css",
+    "originalHash": "51DE092A2B8F4BB22279FECBD4BB132FEB08D037CFF17FF78EB8072D4193877A",
+    "updatedHash": "84D2C6C2AEDC05607CDAD3E41A7781B9FE4F5419546DB410DF4D26066D1B3842"
+  },
+  {
+    "path": "src/components/AdminLayout.tsx",
+    "originalHash": "B024834DFBEA4DC19DB79829AE51AD7BB34B393F5751CB406A557569D7DE98F6",
+    "updatedHash": "55BDD0FBBAB265C3D8493973D65F90F0C18AAE2C07864A25E4701665299B0979"
+  },
+  {
+    "path": "src/pages/SettingsPage.tsx",
+    "originalHash": "3B456622866D146E27A4585CFC0BF036F1C64F006CFD1114134F19AC81C0ED38",
+    "updatedHash": "7F0A239F74E6B7B26B2177E529D61D0F07499A2A8F43A3A8DA4B5C17C46A6624"
+  },
+  {
+    "path": "src/pages/ViewerPage.tsx",
+    "originalHash": "1023B71A8886CA88F9F8F06CA6E7BD22287F11D00E0CC66049B1A54C9AFFB4C7",
+    "updatedHash": "B2EB294D0D98279294621F4289F4F6079D31A0247A07EB1E3CB35776B1D30F66"
+  },
+  {
+    "path": "src/components/BrandLogo.tsx",
+    "originalHash": null,
+    "updatedHash": "A7E67867A4292570329CE7B1B5FA45177CF6C4864757D6B66B6E1EA7BC419804"
+  },
+  {
+    "path": "src/components/PlayfulSky.tsx",
+    "originalHash": null,
+    "updatedHash": "75137D4791D784FED0743A4AA95C4B25D9625F73CF482BC1A8F27AA4F72BC44E"
+  },
+  {
+    "path": "src/pages/ViewerPage.css",
+    "originalHash": null,
+    "updatedHash": "A83ABBADA26635600C90110AD8C14A1FAD6D79636F8089883CA8A8CB06F5DC05"
+  },
+  {
+    "path": "src/assets/branding/ikurt-logo.png",
+    "originalHash": null,
+    "updatedHash": "6E859D097F05B00FBD7775E6C79FF086748F87F568CDF6E20730A4A19999ABCF"
+  },
+  {
+    "path": "src/assets/branding/makaristan-logo.png",
+    "originalHash": null,
+    "updatedHash": "E818EF26F7B8FE63CE89B5C2B39B6CDD843E42558727DE99C0AA13EB8C95AEA4"
+  },
+  {
+    "path": "src/assets/branding/oyun-alani-reference.jpg",
+    "originalHash": null,
+    "updatedHash": "1DA21856F91FB9ED872E2FF776FF8B1C4FBB4CB5574C61AA5EB2B68F9F3590A8"
+  }
+]

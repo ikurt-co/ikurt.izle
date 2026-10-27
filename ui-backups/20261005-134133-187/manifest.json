@@ -1,0 +1,22 @@
+[
+  {
+    "path": "src/components/BrandFooter.tsx",
+    "originalHash": "90E903E25453562AB7734583DA76E269F53920915FBF6DFB0BFEB607E70CFB82",
+    "updatedHash": "67F2B13918B9D48D2DC3F8B75A579561C7D3BD8FE5DAF416AEE2C0DD7B1EE6AB"
+  },
+  {
+    "path": "src/components/BrandFooter.css",
+    "originalHash": "3B07A537FB3F0084C2AFA80222C9413091C7B0A11601FAE9205E8C1E9A3F7DB0",
+    "updatedHash": "3DB0363A45E02BCF1FA29039D7CAD2009A231D5F4C72D9D67BD3EEFECFF233D7"
+  },
+  {
+    "path": "src/assets/branding/whatsapp-logo.png",
+    "originalHash": null,
+    "updatedHash": "D9EBF5A711D7F10E420B4934F3E3C0A714A0C49B67742846E4A9E78EBA2EA945"
+  },
+  {
+    "path": "src/assets/branding/instagram-logo.png",
+    "originalHash": null,
+    "updatedHash": "F8EBC4069E746BC70ECEFCCE651A26B05A67077C9D369B0595D36CBB72B0D089"
+  }
+]

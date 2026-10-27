@@ -1,0 +1,42 @@
+[
+  {
+    "path": "wrangler.jsonc",
+    "originalHash": "DE76A1366FE8BDA317A054FB862A1247969C2A8ED89CD472483B50C3E492A2D9",
+    "updatedHash": "7A2528C05BBFDA48F2CBB81463B4C6D6EE7EBE1502858B909B86FB6351B3B3F0"
+  },
+  {
+    "path": "worker/index.ts",
+    "originalHash": "10378F963712843EC7FC50CF4E9EB7CB867F89A0D60F7FB3E18531093DCDBE7E",
+    "updatedHash": "6D7A7A47617707FA0AAC56EEE4B01FDB39ADADE7E9A33F5130A7C41FC5E862B8"
+  },
+  {
+    "path": "eslint.config.js",
+    "originalHash": "AA99081C7986F44EACEAD1A15322923D8A13BC0906BF8681B8C5C14B31C3915E",
+    "updatedHash": "F774AECFB61BDAF454EEDC16E445384E9C84C10D08192917BE229622340C4AAB"
+  },
+  {
+    "path": "scripts/generate-izle-links.mjs",
+    "originalHash": null,
+    "updatedHash": "900EB29285ECBF91BDFFAE4194AF78183EC6F75F6D067CB50C633E4CA815C82E"
+  },
+  {
+    "path": "tests/izle-links.test.mjs",
+    "originalHash": null,
+    "updatedHash": "A23CCA96A00EF4A5E64B8C3778492EBABA4C67D7E51E7877FDDC43345803B7B3"
+  },
+  {
+    "path": "data/izle-links-001-100.json",
+    "originalHash": null,
+    "updatedHash": "5A92BAB55A525D21358F00C7EAA131ADC0C666907A846E83DC677ED3F47FABE6"
+  },
+  {
+    "path": "data/izle-links-001-100.csv",
+    "originalHash": null,
+    "updatedHash": "1A36E0B1224B5C889BB76198D48085A23093BC4BD4000E6EF6E4657902892E40"
+  },
+  {
+    "path": "data/izle-kv-bulk-001-100.json",
+    "originalHash": null,
+    "updatedHash": "B231C7964BF33E1B1A53B8A0384D5421B49A98D3E0816F23561794613140EBEB"
+  }
+]

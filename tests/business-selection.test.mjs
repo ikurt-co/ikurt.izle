@@ -1,0 +1,27 @@
+import { test } from 'node:test';
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import ts from 'typescript';
+const source = ts.transpile(readFileSync(new URL('../src/lib/businessSelection.ts',import.meta.url),'utf8'), { target: ts.ScriptTarget.ES2023, module: ts.ModuleKind.ESNext });
+const storage = new Map();
+globalThis.localStorage = { getItem: key => storage.has(key) ? storage.get(key) : null, setItem: (key,value) => storage.set(key,value) };
+globalThis.window = { location: { search: '?business=first' }, addEventListener(){}, removeEventListener(){} };
+const load = suffix => import('data:text/javascript;base64,' + Buffer.from(source+'\n//'+suffix).toString('base64'));
+test('selection persists across route changes/reloads, user changes and deletion are the only resets',async()=>{
+  const store=await load('first');
+  assert.equal(store.getBusinessSelection(),'first');
+  window.location.search='';
+  assert.equal(store.getBusinessSelection(),'first');
+  let calls=0; const unsubscribe=store.subscribeBusinessSelection(()=>calls++);
+  store.selectBusiness('second');
+  assert.equal(store.getBusinessSelection(),'second'); assert.equal(calls,1);
+  window.location.search='?business=first';
+  const reloaded=await load('reload');
+  assert.equal(reloaded.getBusinessSelection(),'second');
+  reloaded.clearDeletedBusiness('first'); assert.equal(reloaded.getBusinessSelection(),'second');
+  reloaded.clearDeletedBusiness('second'); assert.equal(reloaded.getBusinessSelection(),'');
+  const again=await load('deleted'); assert.equal(again.getBusinessSelection(),'');
+  assert.equal(store.initialBusinessSelection('', '?business=old'),'');
+  assert.equal(store.initialBusinessSelection(null, '?business=legacy'),'legacy');
+  unsubscribe();
+});
