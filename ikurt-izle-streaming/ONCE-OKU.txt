@@ -1,0 +1,22 @@
+1. ZIP'i TUMUNU AYIKLA ile cikartin. Uygula.cmd dosyasina cift tiklayin.
+2. Kaynaklar yedeklenir ve uygulanir. Var olan degismis dosyalarin uzerine yazilmaz.
+3. Win+R -> powershell -> Enter. Asagidaki iki komutu calistirin:
+
+cd "C:\Users\tarii\ikurt-projects\ikurt-izle"
+powershell -NoProfile -ExecutionPolicy Bypass -File .\streaming\Start-Local.ps1
+
+4. Bu PowerShell penceresini acik birakin. Araç kurulumu ilk seferde zaman alabilir.
+5. Tarayicida http://localhost:5173/c/local-synthetic acin. Yalniz renkli test goruntusu olacak.
+6. Ikinci PowerShell penceresinden ayni repo klasorunde test:
+node streaming/smoke-local.mjs
+7. Durdurma:
+powershell -NoProfile -ExecutionPolicy Bypass -File .\streaming\Stop-Local.ps1
+
+Ayrintili rapor, riskler, maliyet ve NVR sonraki adimlari: docs/streaming-setup.md
+Kod dosyalari: DEGISEN-DOSYALAR.txt
+
+BU PAKET DEPLOY YAPMAZ, CANLI D1/KV'YE YAZMAZ, QR/TOKEN DEGISTIRMEZ.
+0004 migration yalniz dosya olarak gelir; uzak D1'de uygulanmaz.
+Yerel server kendi bellek veritabanini kullanir. Gercek NVR'a baglanmaz.
+.local anahtarlari, TLS anahtarlari, kamera sirları ve portable binaryler pakette yoktur.
+Gercek kaynaga baglanma ve yayin karari ayri onayli fiziksel asamadir.
