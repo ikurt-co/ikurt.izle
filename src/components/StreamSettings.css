@@ -1,0 +1,15 @@
+.stream-settings { margin-top: 24px; min-width: 0; }
+.stream-settings-form { display: grid; gap: 16px; margin-block: 20px; }
+.stream-camera { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; padding-block: 16px; border-bottom: 1px solid var(--border); }
+.stream-camera strong { flex: 1 1 180px; overflow-wrap: anywhere; }
+.stream-camera small { flex-basis: 100%; color: #526474; overflow-wrap: anywhere; }
+.stream-settings :where(input, select, button) { min-width: 0; max-width: 100%; min-height: 44px; }
+.stream-settings button:not(.primary-button) { border: 1px solid var(--border); border-radius: 8px; background: white; color: #17344d; padding: 8px 12px; }
+.stream-checkbox { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; }
+.stream-checkbox input { min-height: 20px; width: 20px; }
+.stream-hours { display: grid; gap: 12px; }
+.stream-day { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.stream-day > label { flex-basis: 140px; }
+.stream-range { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.stream-range input { width: 105px; }
+@media(max-width: 520px) { .stream-camera select { width: 100%; } .stream-day > label { flex-basis: 100%; } }
