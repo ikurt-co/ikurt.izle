@@ -1,0 +1,31 @@
+# MediaMTX v1.21.2; Windows loopback-only development profile.
+logLevel: warn
+logDestinations: [stdout]
+authMethod: http
+authHTTPAddress: http://127.0.0.1:9080/internal/mediamtx-auth
+authHTTPExclude: []
+api: false
+metrics: false
+pprof: false
+playback: false
+rtsp: true
+rtspAddress: 127.0.0.1:8554
+rtspTransports: [tcp]
+rtspAuthMethods: [basic]
+rtmp: false
+srt: false
+webrtc: false
+hls: true
+hlsAddress: 127.0.0.1:8888
+hlsAllowOrigins: []
+hlsVariant: fmp4
+hlsSegmentCount: 3
+hlsSegmentDuration: 1s
+hlsSegmentMaxSize: 8M
+hlsDirectory: ''
+pathDefaults:
+  record: false
+paths:
+  ten_makaristan/cam_synthetic:
+    source: publisher
+    overridePublisher: false

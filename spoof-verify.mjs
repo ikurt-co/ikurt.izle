@@ -1,0 +1,2 @@
+const base='https://ikurt-izle.tarik-c8b.workers.dev';
+for(const path of ['/admin/cameras','/api/admin/cameras','/admin/locations']) {const r=await fetch(base+path,{redirect:'manual',headers:{'Cf-Access-Jwt-Assertion':'forged','Cf-Access-Authenticated-User-Email':'tarik@ikurt.net'}});console.log(JSON.stringify({path,status:r.status,loginRedirect:r.headers.get('location')?.includes('cloudflareaccess.com')??false}));}

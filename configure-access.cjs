@@ -1,0 +1,3 @@
+const fs=require('node:fs');
+let s=fs.readFileSync('wrangler.jsonc','utf8');s=s.replace('"compatibility_date": "2026-10-01",','"compatibility_date": "2026-10-01",\n  "workers_dev": true,\n  "preview_urls": false,\n  "vars": {\n    "ACCESS_TEAM_DOMAIN": "ikurt-co.cloudflareaccess.com",\n    "ACCESS_AUD": "78e0b970dd074a300bd819db352d782dcfb6e0015393ce59cba2c5f3957b63a8",\n    "ADMIN_EMAIL": "tarik@ikurt.net",\n    "ADMIN_HOST": "ikurt-izle.tarik-c8b.workers.dev"\n  },');fs.writeFileSync('wrangler.jsonc',s);
+const pkg=JSON.parse(fs.readFileSync('package.json','utf8'));pkg.scripts.test='node --test tests/*.test.mjs';fs.writeFileSync('package.json',JSON.stringify(pkg,null,2)+'\n');

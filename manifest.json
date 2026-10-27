@@ -1,0 +1,177 @@
+[
+  {
+    "path": ".gitignore",
+    "originalHash": "8D579B777F3FA80EACA869937ABC1DD60E0E3C6505D59BBA06E922D8997622B0",
+    "updatedHash": "FF5E330322C4526D10930FD3DEBD5D73F6822A6FF8AD69B0E293750F48629A93"
+  },
+  {
+    "path": "eslint.config.js",
+    "originalHash": "F774AECFB61BDAF454EEDC16E445384E9C84C10D08192917BE229622340C4AAB",
+    "updatedHash": "1131E8B5EF9E83BB43EA258BEC623DEFFA82E828C2A3625B7A60ACA165B8EE60"
+  },
+  {
+    "path": "package.json",
+    "originalHash": "A906B4983412400E889E57B3AB8D7BEFF772ED01DCEBCF67682BB839ED619428",
+    "updatedHash": "03E52C5B35275FB2A08967AFBB8C6EE1471BC1B9F61B0BBB51C809E6C89877B4"
+  },
+  {
+    "path": "package-lock.json",
+    "originalHash": "9E24B6648B7AC1CAE7F6D9D7728AC273923AC0324789472EA30CCB94EA61F4A1",
+    "updatedHash": "A50C57945B928971CADA296DDE3F4872927F37F3EA8F34FA9B52A2EB80B11263"
+  },
+  {
+    "path": "worker/index.ts",
+    "originalHash": "6D7A7A47617707FA0AAC56EEE4B01FDB39ADADE7E9A33F5130A7C41FC5E862B8",
+    "updatedHash": "C79B4A759E7922B05C1BDD77162ED6BAC97BC348E8D7E9C9740864B3F0A035E9"
+  },
+  {
+    "path": "worker/media.ts",
+    "originalHash": null,
+    "updatedHash": "1142A085387B56FB52A48DF28F780E8300297462BBC530F76667579912865F4D"
+  },
+  {
+    "path": "src/hls-light.d.ts",
+    "originalHash": null,
+    "updatedHash": "03866F2C8B063EBC303F2D859687B3C43B50A8706D136570137ACE20E83512FE"
+  },
+  {
+    "path": "src/components/LiveVideo.tsx",
+    "originalHash": null,
+    "updatedHash": "3BC9E3DEF0CB60250606EEC693C87A117E430982D3387A29D699CA1CD6C87404"
+  },
+  {
+    "path": "src/components/StreamSettings.css",
+    "originalHash": null,
+    "updatedHash": "2E50CFB6CCA718BAFC884CC9C150AD8033A478291CEC786D30F68B8225A7C437"
+  },
+  {
+    "path": "src/components/StreamSettings.tsx",
+    "originalHash": null,
+    "updatedHash": "9AB0F2F4E9074A1CCF064C326989F917AC39F083139530E536D56E32E923DC72"
+  },
+  {
+    "path": "src/pages/CamerasPage.tsx",
+    "originalHash": "265BD305A23959D6F68E6E58EC5F1796725A97D464BA0F93F14E010FE880B38E",
+    "updatedHash": "FB6D1AB81350F8110FAB1BB2419EC9CC945B8337C5AF3C34B77E933B616CF657"
+  },
+  {
+    "path": "src/pages/StreamsPage.tsx",
+    "originalHash": "4DBAD5860D50A8E78B71EA8BD1F104DB3AA20843333EDE3FDE1D07A7B18C44EE",
+    "updatedHash": "EF192DC7B81CEADD96154F3B44E1C0BDFC0BF8B0819617C8F0022BAF31FB7BF3"
+  },
+  {
+    "path": "src/pages/ViewerPage.css",
+    "originalHash": "2638EC29EBCC64B4BBE193A92FFDE7C78F03A0E0A2393D5F549B10C92AB84FA9",
+    "updatedHash": "4E6CA91C8A39F3FBA4A35BFE3F7600AF236D4B0C7E8EA1AD8092F4A3F78A194B"
+  },
+  {
+    "path": "src/pages/ViewerPage.tsx",
+    "originalHash": "63676CCDFDF0E7159E9FF237BFDC38808DBE7735170D5E03E4000607E015427F",
+    "updatedHash": "5591A06BC76E08707E7A3DAC10D4E4D595683E765A207263435B96F95481C697"
+  },
+  {
+    "path": "scripts/load-worker.mjs",
+    "originalHash": null,
+    "updatedHash": "A13D2341585C2FAAFD774ACFFD3400124750A6B575318410DC8F304CA8FFD4D3"
+  },
+  {
+    "path": "tests/izle-links.test.mjs",
+    "originalHash": "A23CCA96A00EF4A5E64B8C3778492EBABA4C67D7E51E7877FDDC43345803B7B3",
+    "updatedHash": "3619D9B7CD00B01D2DE8F58002FF4D52487B4F52D077EC6F854A276A4730A47C"
+  },
+  {
+    "path": "tests/media.test.mjs",
+    "originalHash": null,
+    "updatedHash": "49A2AAB7E5CC4DDDEDA40B497E697BDA1EB5F024567EF802BA4E6CC86B609F5F"
+  },
+  {
+    "path": "tests/worker.test.mjs",
+    "originalHash": "FFA173142243C1105C94EE86FB173B0C355049D00380C00C7C88E0CBB8E2AF36",
+    "updatedHash": "851A9DEA0FF4D4C29FC415F8E0C2600F0AE6A2A3B3C5F7CD2FCC68D559E95419"
+  },
+  {
+    "path": "migrations/0004_media_policies.sql",
+    "originalHash": null,
+    "updatedHash": "6D323745344C054F646CB0E57589DBD2813A374C70517AD87E372F4132B876D3"
+  },
+  {
+    "path": "streaming/filter-sources.mjs",
+    "originalHash": null,
+    "updatedHash": "7113FD5433E62A8DA7B6E96F9CDFCA025572DE16160F9A8534D0C94A8139976A"
+  },
+  {
+    "path": "streaming/gateway.mjs",
+    "originalHash": null,
+    "updatedHash": "C89ED6D5EB02DBE639265C1C9EA51ACFB3AE4C69325F49E36A137680C6629E01"
+  },
+  {
+    "path": "streaming/Install-Tools.ps1",
+    "originalHash": null,
+    "updatedHash": "9FB1274C31541E425D42FF201A5553B19B953221E746E045FF467B4E22A2DD39"
+  },
+  {
+    "path": "streaming/init-local.mjs",
+    "originalHash": null,
+    "updatedHash": "416A57067C6611C006ED8E40007EC446625B7A276C795D551DCAAFD8E9612FE3"
+  },
+  {
+    "path": "streaming/local-app.mjs",
+    "originalHash": null,
+    "updatedHash": "A812CFD6A2ABE1FA553F0A3E9E96712EE1756AA677145427EA3733C79AAD7540"
+  },
+  {
+    "path": "streaming/mediamtx-base.json",
+    "originalHash": null,
+    "updatedHash": "F21444567B5E29EE746C69AEE5D0236D176B9C9BB6BB0F8F34130A8A41929810"
+  },
+  {
+    "path": "streaming/mediamtx.yml",
+    "originalHash": null,
+    "updatedHash": "F21643FA94E080C570E1877FFBEE4FCA43E9CBAF9129501E5AACE9D7CDE8E362"
+  },
+  {
+    "path": "streaming/Protect-Local.ps1",
+    "originalHash": null,
+    "updatedHash": "A0FA1FEEF1AD135CECB18B31FC1624CC42AB140F12825FF707DA37BDA10C8B4D"
+  },
+  {
+    "path": "streaming/publish-synthetic.mjs",
+    "originalHash": null,
+    "updatedHash": "FD4EDD13DD50B9B509B6930AE3061773F3987BE0E429DB07EB581FCC75409399"
+  },
+  {
+    "path": "streaming/smoke-local.mjs",
+    "originalHash": null,
+    "updatedHash": "D52D89AF6CB3B9CD00399B0D63E6E952E8D61DE22AB01ADAFA3EEA49424CE040"
+  },
+  {
+    "path": "streaming/Start-Local.ps1",
+    "originalHash": null,
+    "updatedHash": "0035371FD8FF742210CCE13D6CAC958B872D888B25A6A63415CBCCB60E1BEA40"
+  },
+  {
+    "path": "streaming/start-mediamtx.mjs",
+    "originalHash": null,
+    "updatedHash": "DAEA95EC193F47CAB9BD1682752BFA05E10A315C1C121F577A9B1D3851EC006A"
+  },
+  {
+    "path": "streaming/Stop-Local.ps1",
+    "originalHash": null,
+    "updatedHash": "C3CFB924D2DD841518A263EFEC9D8F095546572F7CE0206A02ABFFA19EE3DAD8"
+  },
+  {
+    "path": "streaming/sync-sources.mjs",
+    "originalHash": null,
+    "updatedHash": "9BC39DB3F96BD34EBE80BB84F9CB3964B21A0207FF161D5990E86956E46F7FD5"
+  },
+  {
+    "path": "streaming/worker-media.env.example",
+    "originalHash": null,
+    "updatedHash": "A0E94C38E052E6D965F528DBCA8BFCC3EC22B53BBB8C393DDA9E62BF0EFEAB85"
+  },
+  {
+    "path": "docs/streaming-setup.md",
+    "originalHash": null,
+    "updatedHash": "17C850305087B2231493340A24B24B0635DCBE6BDB3DA243706B8710B9B8C259"
+  }
+]
